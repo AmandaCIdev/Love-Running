@@ -40,6 +40,20 @@ h1 {
     color: #252525;
 }
 
+#menu {
+    font-size: 110%; /* Set font size to 110% of the default size */
+    letter-spacing: 4px; /* Set letter spacing to 4px */
+    list-style: none; /* Remove bullet points */
+}
+
+#menu > li {
+    margin-bottom: 1em;
+    }
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+        }
+
 /* Main content */
 main {
     background-color: lightblue;
