@@ -12,7 +12,7 @@
 body {
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column */
     /* Generic project styles */
     color: 3a3a3a;
     font-family: Lato, sans-serif;
@@ -143,6 +143,21 @@ main {
     margin: 5px 0;
 }
 
+#circle-cover-bg {
+    background: url('../images/reasons-image.webp') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%; /* Makes the square image into a circle */
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Footer */
 #social-networks {
